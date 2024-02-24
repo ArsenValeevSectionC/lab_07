@@ -1,0 +1,88 @@
+:root{
+    --font-family: "Kode Mono", monospace;
+    --font-color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: rgb(31, 31, 31);
+    color: var(--font-color);
+}
+
+.container {
+    max-width: 60%;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: var(--font-family);
+    border-radius: 5px;
+    border: 2px solid rgb(118, 117, 119); 
+    background-color: rgb(68, 66, 69); 
+    color: var(--font-color);
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    background-color: rgb(0, 123, 255);
+    color: var(--font-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 86, 179);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(118, 117, 119);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+span{
+    font-size: 20px;
+}
+
+.delete-btn {
+    background-color: rgb(220, 53, 69); 
+    color: var(--font-color);
+    border: none;
+    border-radius: 7px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: rgb(153, 0, 0);
+}
+
